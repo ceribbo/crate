@@ -11,6 +11,6 @@ Link to my public presentation: <a href="https://docs.google.com/presentation/d/
 # Functionalities
 To launch Crate with the tweets database already imported just download the reposoroty and execute 
 
-```bash ./bin/crate ```
+``` ./bin/crate ```
 
 To launche the script just execute ``` python crate.py ``` in the repository directory in order to print the difference in time performance between MySQL database and CrateDB (MySQL database must be installed and user root must be created)
