@@ -1,0 +1,182 @@
+[2018-05-09T22:28:48,725][INFO ][o.e.n.Node               ] [MacbookPro] initializing ...
+[2018-05-09T22:28:48,822][INFO ][o.e.e.NodeEnvironment    ] [MacbookPro] using [1] data paths, mounts [[/ (/dev/disk1s1)]], net usable_space [32.5gb], net total_space [465.6gb], spins? [unknown], types [apfs]
+[2018-05-09T22:28:48,822][INFO ][o.e.e.NodeEnvironment    ] [MacbookPro] heap size [3.9gb], compressed ordinary object pointers [true]
+[2018-05-09T22:28:49,183][INFO ][i.c.plugin               ] [MacbookPro] plugins loaded: [lang-js, jmx-monitoring, hyperLogLog] 
+[2018-05-09T22:28:49,899][INFO ][o.e.p.PluginsService     ] [MacbookPro] no modules loaded
+[2018-05-09T22:28:49,901][INFO ][o.e.p.PluginsService     ] [MacbookPro] loaded plugin [crate-azure-discovery]
+[2018-05-09T22:28:49,901][INFO ][o.e.p.PluginsService     ] [MacbookPro] loaded plugin [es-repository-hdfs]
+[2018-05-09T22:28:49,902][INFO ][o.e.p.PluginsService     ] [MacbookPro] loaded plugin [io.crate.plugin.BlobPlugin]
+[2018-05-09T22:28:49,902][INFO ][o.e.p.PluginsService     ] [MacbookPro] loaded plugin [io.crate.plugin.CrateCorePlugin]
+[2018-05-09T22:28:49,902][INFO ][o.e.p.PluginsService     ] [MacbookPro] loaded plugin [io.crate.plugin.HttpTransportPlugin]
+[2018-05-09T22:28:49,902][INFO ][o.e.p.PluginsService     ] [MacbookPro] loaded plugin [io.crate.plugin.PluginLoaderPlugin]
+[2018-05-09T22:28:49,902][INFO ][o.e.p.PluginsService     ] [MacbookPro] loaded plugin [io.crate.plugin.SrvPlugin]
+[2018-05-09T22:28:49,902][INFO ][o.e.p.PluginsService     ] [MacbookPro] loaded plugin [io.crate.udc.plugin.UDCPlugin]
+[2018-05-09T22:28:49,902][INFO ][o.e.p.PluginsService     ] [MacbookPro] loaded plugin [org.elasticsearch.discovery.ec2.Ec2DiscoveryPlugin]
+[2018-05-09T22:28:49,903][INFO ][o.e.p.PluginsService     ] [MacbookPro] loaded plugin [org.elasticsearch.repositories.s3.S3RepositoryPlugin]
+[2018-05-09T22:28:49,903][INFO ][o.e.p.PluginsService     ] [MacbookPro] loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+[2018-05-09T22:28:49,922][INFO ][o.e.n.Node               ] [MacbookPro] node name [MacbookPro], node ID [ER01CpRQR0G2N_QkIBF4Xg]
+[2018-05-09T22:28:49,954][INFO ][o.e.n.Node               ] [MacbookPro] CrateDB version[2.3.7], pid[1913], build[dc80da6/2018-05-03T07:26:02Z], OS[Mac OS X/10.13.4/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_91/25.91-b14]
+[2018-05-09T22:28:50,506][INFO ][i.c.module               ] [MacbookPro] CrateDB Enterprise features are active. Please request a license before deploying in production or deactivate the Enterprise features. https://crate.io/enterprise
+[2018-05-09T22:28:51,017][INFO ][o.e.d.DiscoveryModule    ] [MacbookPro] using discovery type [zen]
+[2018-05-09T22:28:51,792][INFO ][i.c.p.s.SslContextProvider] HTTP SSL support is disabled.
+[2018-05-09T22:28:52,074][INFO ][o.e.n.Node               ] [MacbookPro] initialized
+[2018-05-09T22:28:52,074][INFO ][o.e.n.Node               ] [MacbookPro] starting ...
+[2018-05-09T22:28:52,137][INFO ][psql                     ] [MacbookPro] PSQL SSL support is disabled.
+[2018-05-09T22:28:52,249][INFO ][psql                     ] [MacbookPro] publish_address {192.168.1.2:5432}, bound_addresses {[::1]:5432}, {127.0.0.1:5432}, {192.168.1.2:5432}
+[2018-05-09T22:28:52,272][INFO ][i.c.p.h.CrateNettyHttpServerTransport] [MacbookPro] publish_address {192.168.1.2:4200}, bound_addresses {[::1]:4200}, {127.0.0.1:4200}, {192.168.1.2:4200}
+[2018-05-09T22:28:52,290][INFO ][o.e.t.TransportService   ] [MacbookPro] publish_address {192.168.1.2:4300}, bound_addresses {[::1]:4300}, {127.0.0.1:4300}, {192.168.1.2:4300}
+[2018-05-09T22:28:52,298][INFO ][o.e.b.BootstrapChecks    ] [MacbookPro] bound or publishing to a non-loopback address, enforcing bootstrap checks
+[2018-05-09T22:28:52,301][ERROR][o.e.b.BootstrapProxy     ] [MacbookPro] node validation exception
+[1] bootstrap checks failed
+[1]: initial heap size [268435456] not equal to maximum heap size [4294967296]; this can cause resize pauses and prevents mlockall from locking the entire heap
+[2018-05-09T22:28:52,303][INFO ][o.e.n.Node               ] [MacbookPro] stopping ...
+[2018-05-09T22:28:52,362][INFO ][o.e.n.Node               ] [MacbookPro] stopped
+[2018-05-09T22:28:52,362][INFO ][o.e.n.Node               ] [MacbookPro] closing ...
+[2018-05-09T22:28:52,372][INFO ][o.e.n.Node               ] [MacbookPro] closed
+[2018-05-09T22:39:25,457][INFO ][o.e.n.Node               ] [MacbookPro] initializing ...
+[2018-05-09T22:39:25,558][INFO ][o.e.e.NodeEnvironment    ] [MacbookPro] using [1] data paths, mounts [[/ (/dev/disk1s1)]], net usable_space [32.4gb], net total_space [465.6gb], spins? [unknown], types [apfs]
+[2018-05-09T22:39:25,558][INFO ][o.e.e.NodeEnvironment    ] [MacbookPro] heap size [3.9gb], compressed ordinary object pointers [true]
+[2018-05-09T22:39:25,917][INFO ][i.c.plugin               ] [MacbookPro] plugins loaded: [lang-js, jmx-monitoring, hyperLogLog] 
+[2018-05-09T22:39:26,609][INFO ][o.e.p.PluginsService     ] [MacbookPro] no modules loaded
+[2018-05-09T22:39:26,611][INFO ][o.e.p.PluginsService     ] [MacbookPro] loaded plugin [crate-azure-discovery]
+[2018-05-09T22:39:26,611][INFO ][o.e.p.PluginsService     ] [MacbookPro] loaded plugin [es-repository-hdfs]
+[2018-05-09T22:39:26,611][INFO ][o.e.p.PluginsService     ] [MacbookPro] loaded plugin [io.crate.plugin.BlobPlugin]
+[2018-05-09T22:39:26,611][INFO ][o.e.p.PluginsService     ] [MacbookPro] loaded plugin [io.crate.plugin.CrateCorePlugin]
+[2018-05-09T22:39:26,611][INFO ][o.e.p.PluginsService     ] [MacbookPro] loaded plugin [io.crate.plugin.HttpTransportPlugin]
+[2018-05-09T22:39:26,611][INFO ][o.e.p.PluginsService     ] [MacbookPro] loaded plugin [io.crate.plugin.PluginLoaderPlugin]
+[2018-05-09T22:39:26,612][INFO ][o.e.p.PluginsService     ] [MacbookPro] loaded plugin [io.crate.plugin.SrvPlugin]
+[2018-05-09T22:39:26,612][INFO ][o.e.p.PluginsService     ] [MacbookPro] loaded plugin [io.crate.udc.plugin.UDCPlugin]
+[2018-05-09T22:39:26,612][INFO ][o.e.p.PluginsService     ] [MacbookPro] loaded plugin [org.elasticsearch.discovery.ec2.Ec2DiscoveryPlugin]
+[2018-05-09T22:39:26,612][INFO ][o.e.p.PluginsService     ] [MacbookPro] loaded plugin [org.elasticsearch.repositories.s3.S3RepositoryPlugin]
+[2018-05-09T22:39:26,612][INFO ][o.e.p.PluginsService     ] [MacbookPro] loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+[2018-05-09T22:39:26,634][INFO ][o.e.n.Node               ] [MacbookPro] node name [MacbookPro], node ID [ER01CpRQR0G2N_QkIBF4Xg]
+[2018-05-09T22:39:26,668][INFO ][o.e.n.Node               ] [MacbookPro] CrateDB version[2.3.7], pid[1943], build[dc80da6/2018-05-03T07:26:02Z], OS[Mac OS X/10.13.4/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_91/25.91-b14]
+[2018-05-09T22:39:27,224][ERROR][o.e.b.BootstrapProxy     ] Exception
+java.lang.IllegalArgumentException: unknown setting [bootstrap.mlockall] please check that any required plugins are installed or `license.enterprise` is enabled, if the plugin(s) require(s) it, or check the breaking changes documentation for removed settings
+	at org.elasticsearch.common.settings.AbstractScopedSettings.validate(AbstractScopedSettings.java:293) ~[crate-app-2.3.7.jar:2.3.7]
+	at org.elasticsearch.common.settings.AbstractScopedSettings.validate(AbstractScopedSettings.java:256) ~[crate-app-2.3.7.jar:2.3.7]
+	at org.elasticsearch.common.settings.SettingsModule.<init>(SettingsModule.java:139) ~[crate-app-2.3.7.jar:2.3.7]
+	at org.elasticsearch.node.Node.<init>(Node.java:322) ~[crate-app-2.3.7.jar:2.3.7]
+	at io.crate.node.CrateNode.<init>(CrateNode.java:62) ~[crate-app-2.3.7.jar:2.3.7]
+	at org.elasticsearch.bootstrap.BootstrapProxy$1.<init>(BootstrapProxy.java:199) ~[crate-app-2.3.7.jar:2.3.7]
+	at org.elasticsearch.bootstrap.BootstrapProxy.setup(BootstrapProxy.java:199) ~[crate-app-2.3.7.jar:2.3.7]
+	at org.elasticsearch.bootstrap.BootstrapProxy.init(BootstrapProxy.java:282) [crate-app-2.3.7.jar:2.3.7]
+	at io.crate.bootstrap.CrateDB.init(CrateDB.java:138) [crate-app-2.3.7.jar:2.3.7]
+	at io.crate.bootstrap.CrateDB.execute(CrateDB.java:118) [crate-app-2.3.7.jar:2.3.7]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:76) [crate-app-2.3.7.jar:2.3.7]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:134) [crate-app-2.3.7.jar:2.3.7]
+	at org.elasticsearch.cli.Command.main(Command.java:90) [crate-app-2.3.7.jar:2.3.7]
+	at io.crate.bootstrap.CrateDB.main(CrateDB.java:87) [crate-app-2.3.7.jar:2.3.7]
+	at io.crate.bootstrap.CrateDB.main(CrateDB.java:80) [crate-app-2.3.7.jar:2.3.7]
+[2018-05-09T22:39:27,230][WARN ][o.e.b.ElasticsearchUncaughtExceptionHandler] [MacbookPro] uncaught exception in thread [main]
+org.elasticsearch.bootstrap.StartupException: java.lang.IllegalArgumentException: unknown setting [bootstrap.mlockall] please check that any required plugins are installed or `license.enterprise` is enabled, if the plugin(s) require(s) it, or check the breaking changes documentation for removed settings
+	at org.elasticsearch.bootstrap.StartupExceptionProxy.<init>(StartupExceptionProxy.java:31) ~[crate-app-2.3.7.jar:2.3.7]
+	at io.crate.bootstrap.CrateDB.init(CrateDB.java:142) ~[crate-app-2.3.7.jar:2.3.7]
+	at io.crate.bootstrap.CrateDB.execute(CrateDB.java:118) ~[crate-app-2.3.7.jar:2.3.7]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:76) ~[crate-app-2.3.7.jar:2.3.7]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:134) ~[crate-app-2.3.7.jar:2.3.7]
+	at org.elasticsearch.cli.Command.main(Command.java:90) ~[crate-app-2.3.7.jar:2.3.7]
+	at io.crate.bootstrap.CrateDB.main(CrateDB.java:87) ~[crate-app-2.3.7.jar:2.3.7]
+	at io.crate.bootstrap.CrateDB.main(CrateDB.java:80) ~[crate-app-2.3.7.jar:2.3.7]
+Caused by: java.lang.IllegalArgumentException: unknown setting [bootstrap.mlockall] please check that any required plugins are installed or `license.enterprise` is enabled, if the plugin(s) require(s) it, or check the breaking changes documentation for removed settings
+	at org.elasticsearch.common.settings.AbstractScopedSettings.validate(AbstractScopedSettings.java:293) ~[crate-app-2.3.7.jar:2.3.7]
+	at org.elasticsearch.common.settings.AbstractScopedSettings.validate(AbstractScopedSettings.java:256) ~[crate-app-2.3.7.jar:2.3.7]
+	at org.elasticsearch.common.settings.SettingsModule.<init>(SettingsModule.java:139) ~[crate-app-2.3.7.jar:2.3.7]
+	at org.elasticsearch.node.Node.<init>(Node.java:322) ~[crate-app-2.3.7.jar:2.3.7]
+	at io.crate.node.CrateNode.<init>(CrateNode.java:62) ~[crate-app-2.3.7.jar:2.3.7]
+	at org.elasticsearch.bootstrap.BootstrapProxy$1.<init>(BootstrapProxy.java:199) ~[crate-app-2.3.7.jar:2.3.7]
+	at org.elasticsearch.bootstrap.BootstrapProxy.setup(BootstrapProxy.java:199) ~[crate-app-2.3.7.jar:2.3.7]
+	at org.elasticsearch.bootstrap.BootstrapProxy.init(BootstrapProxy.java:282) ~[crate-app-2.3.7.jar:2.3.7]
+	at io.crate.bootstrap.CrateDB.init(CrateDB.java:138) ~[crate-app-2.3.7.jar:2.3.7]
+	... 6 more
+[2018-05-09T22:41:00,545][INFO ][o.e.n.Node               ] [MacbookPro] initializing ...
+[2018-05-09T22:41:00,654][INFO ][o.e.e.NodeEnvironment    ] [MacbookPro] using [1] data paths, mounts [[/ (/dev/disk1s1)]], net usable_space [32.4gb], net total_space [465.6gb], spins? [unknown], types [apfs]
+[2018-05-09T22:41:00,655][INFO ][o.e.e.NodeEnvironment    ] [MacbookPro] heap size [3.9gb], compressed ordinary object pointers [true]
+[2018-05-09T22:41:01,016][INFO ][i.c.plugin               ] [MacbookPro] plugins loaded: [lang-js, jmx-monitoring, hyperLogLog] 
+[2018-05-09T22:41:01,710][INFO ][o.e.p.PluginsService     ] [MacbookPro] no modules loaded
+[2018-05-09T22:41:01,712][INFO ][o.e.p.PluginsService     ] [MacbookPro] loaded plugin [crate-azure-discovery]
+[2018-05-09T22:41:01,712][INFO ][o.e.p.PluginsService     ] [MacbookPro] loaded plugin [es-repository-hdfs]
+[2018-05-09T22:41:01,712][INFO ][o.e.p.PluginsService     ] [MacbookPro] loaded plugin [io.crate.plugin.BlobPlugin]
+[2018-05-09T22:41:01,713][INFO ][o.e.p.PluginsService     ] [MacbookPro] loaded plugin [io.crate.plugin.CrateCorePlugin]
+[2018-05-09T22:41:01,713][INFO ][o.e.p.PluginsService     ] [MacbookPro] loaded plugin [io.crate.plugin.HttpTransportPlugin]
+[2018-05-09T22:41:01,713][INFO ][o.e.p.PluginsService     ] [MacbookPro] loaded plugin [io.crate.plugin.PluginLoaderPlugin]
+[2018-05-09T22:41:01,713][INFO ][o.e.p.PluginsService     ] [MacbookPro] loaded plugin [io.crate.plugin.SrvPlugin]
+[2018-05-09T22:41:01,713][INFO ][o.e.p.PluginsService     ] [MacbookPro] loaded plugin [io.crate.udc.plugin.UDCPlugin]
+[2018-05-09T22:41:01,713][INFO ][o.e.p.PluginsService     ] [MacbookPro] loaded plugin [org.elasticsearch.discovery.ec2.Ec2DiscoveryPlugin]
+[2018-05-09T22:41:01,713][INFO ][o.e.p.PluginsService     ] [MacbookPro] loaded plugin [org.elasticsearch.repositories.s3.S3RepositoryPlugin]
+[2018-05-09T22:41:01,714][INFO ][o.e.p.PluginsService     ] [MacbookPro] loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+[2018-05-09T22:41:01,735][INFO ][o.e.n.Node               ] [MacbookPro] node name [MacbookPro], node ID [ER01CpRQR0G2N_QkIBF4Xg]
+[2018-05-09T22:41:01,767][INFO ][o.e.n.Node               ] [MacbookPro] CrateDB version[2.3.7], pid[1975], build[dc80da6/2018-05-03T07:26:02Z], OS[Mac OS X/10.13.4/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_91/25.91-b14]
+[2018-05-09T22:41:02,276][ERROR][o.e.b.BootstrapProxy     ] Exception
+java.lang.IllegalArgumentException: unknown setting [bootstrap.mlockall] please check that any required plugins are installed or `license.enterprise` is enabled, if the plugin(s) require(s) it, or check the breaking changes documentation for removed settings
+	at org.elasticsearch.common.settings.AbstractScopedSettings.validate(AbstractScopedSettings.java:293) ~[crate-app-2.3.7.jar:2.3.7]
+	at org.elasticsearch.common.settings.AbstractScopedSettings.validate(AbstractScopedSettings.java:256) ~[crate-app-2.3.7.jar:2.3.7]
+	at org.elasticsearch.common.settings.SettingsModule.<init>(SettingsModule.java:139) ~[crate-app-2.3.7.jar:2.3.7]
+	at org.elasticsearch.node.Node.<init>(Node.java:322) ~[crate-app-2.3.7.jar:2.3.7]
+	at io.crate.node.CrateNode.<init>(CrateNode.java:62) ~[crate-app-2.3.7.jar:2.3.7]
+	at org.elasticsearch.bootstrap.BootstrapProxy$1.<init>(BootstrapProxy.java:199) ~[crate-app-2.3.7.jar:2.3.7]
+	at org.elasticsearch.bootstrap.BootstrapProxy.setup(BootstrapProxy.java:199) ~[crate-app-2.3.7.jar:2.3.7]
+	at org.elasticsearch.bootstrap.BootstrapProxy.init(BootstrapProxy.java:282) [crate-app-2.3.7.jar:2.3.7]
+	at io.crate.bootstrap.CrateDB.init(CrateDB.java:138) [crate-app-2.3.7.jar:2.3.7]
+	at io.crate.bootstrap.CrateDB.execute(CrateDB.java:118) [crate-app-2.3.7.jar:2.3.7]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:76) [crate-app-2.3.7.jar:2.3.7]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:134) [crate-app-2.3.7.jar:2.3.7]
+	at org.elasticsearch.cli.Command.main(Command.java:90) [crate-app-2.3.7.jar:2.3.7]
+	at io.crate.bootstrap.CrateDB.main(CrateDB.java:87) [crate-app-2.3.7.jar:2.3.7]
+	at io.crate.bootstrap.CrateDB.main(CrateDB.java:80) [crate-app-2.3.7.jar:2.3.7]
+[2018-05-09T22:41:02,281][WARN ][o.e.b.ElasticsearchUncaughtExceptionHandler] [MacbookPro] uncaught exception in thread [main]
+org.elasticsearch.bootstrap.StartupException: java.lang.IllegalArgumentException: unknown setting [bootstrap.mlockall] please check that any required plugins are installed or `license.enterprise` is enabled, if the plugin(s) require(s) it, or check the breaking changes documentation for removed settings
+	at org.elasticsearch.bootstrap.StartupExceptionProxy.<init>(StartupExceptionProxy.java:31) ~[crate-app-2.3.7.jar:2.3.7]
+	at io.crate.bootstrap.CrateDB.init(CrateDB.java:142) ~[crate-app-2.3.7.jar:2.3.7]
+	at io.crate.bootstrap.CrateDB.execute(CrateDB.java:118) ~[crate-app-2.3.7.jar:2.3.7]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:76) ~[crate-app-2.3.7.jar:2.3.7]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:134) ~[crate-app-2.3.7.jar:2.3.7]
+	at org.elasticsearch.cli.Command.main(Command.java:90) ~[crate-app-2.3.7.jar:2.3.7]
+	at io.crate.bootstrap.CrateDB.main(CrateDB.java:87) ~[crate-app-2.3.7.jar:2.3.7]
+	at io.crate.bootstrap.CrateDB.main(CrateDB.java:80) ~[crate-app-2.3.7.jar:2.3.7]
+Caused by: java.lang.IllegalArgumentException: unknown setting [bootstrap.mlockall] please check that any required plugins are installed or `license.enterprise` is enabled, if the plugin(s) require(s) it, or check the breaking changes documentation for removed settings
+	at org.elasticsearch.common.settings.AbstractScopedSettings.validate(AbstractScopedSettings.java:293) ~[crate-app-2.3.7.jar:2.3.7]
+	at org.elasticsearch.common.settings.AbstractScopedSettings.validate(AbstractScopedSettings.java:256) ~[crate-app-2.3.7.jar:2.3.7]
+	at org.elasticsearch.common.settings.SettingsModule.<init>(SettingsModule.java:139) ~[crate-app-2.3.7.jar:2.3.7]
+	at org.elasticsearch.node.Node.<init>(Node.java:322) ~[crate-app-2.3.7.jar:2.3.7]
+	at io.crate.node.CrateNode.<init>(CrateNode.java:62) ~[crate-app-2.3.7.jar:2.3.7]
+	at org.elasticsearch.bootstrap.BootstrapProxy$1.<init>(BootstrapProxy.java:199) ~[crate-app-2.3.7.jar:2.3.7]
+	at org.elasticsearch.bootstrap.BootstrapProxy.setup(BootstrapProxy.java:199) ~[crate-app-2.3.7.jar:2.3.7]
+	at org.elasticsearch.bootstrap.BootstrapProxy.init(BootstrapProxy.java:282) ~[crate-app-2.3.7.jar:2.3.7]
+	at io.crate.bootstrap.CrateDB.init(CrateDB.java:138) ~[crate-app-2.3.7.jar:2.3.7]
+	... 6 more
+[2018-05-09T22:56:01,015][INFO ][o.e.n.Node               ] [MacbookPro] initializing ...
+[2018-05-09T22:56:01,133][INFO ][o.e.e.NodeEnvironment    ] [MacbookPro] using [1] data paths, mounts [[/ (/dev/disk1s1)]], net usable_space [32.4gb], net total_space [465.6gb], spins? [unknown], types [apfs]
+[2018-05-09T22:56:01,133][INFO ][o.e.e.NodeEnvironment    ] [MacbookPro] heap size [3.9gb], compressed ordinary object pointers [true]
+[2018-05-09T22:56:01,473][INFO ][i.c.plugin               ] [MacbookPro] plugins loaded: [lang-js, jmx-monitoring, hyperLogLog] 
+[2018-05-09T22:56:02,427][INFO ][o.e.p.PluginsService     ] [MacbookPro] no modules loaded
+[2018-05-09T22:56:02,430][INFO ][o.e.p.PluginsService     ] [MacbookPro] loaded plugin [crate-azure-discovery]
+[2018-05-09T22:56:02,431][INFO ][o.e.p.PluginsService     ] [MacbookPro] loaded plugin [es-repository-hdfs]
+[2018-05-09T22:56:02,431][INFO ][o.e.p.PluginsService     ] [MacbookPro] loaded plugin [io.crate.plugin.BlobPlugin]
+[2018-05-09T22:56:02,431][INFO ][o.e.p.PluginsService     ] [MacbookPro] loaded plugin [io.crate.plugin.CrateCorePlugin]
+[2018-05-09T22:56:02,431][INFO ][o.e.p.PluginsService     ] [MacbookPro] loaded plugin [io.crate.plugin.HttpTransportPlugin]
+[2018-05-09T22:56:02,431][INFO ][o.e.p.PluginsService     ] [MacbookPro] loaded plugin [io.crate.plugin.PluginLoaderPlugin]
+[2018-05-09T22:56:02,431][INFO ][o.e.p.PluginsService     ] [MacbookPro] loaded plugin [io.crate.plugin.SrvPlugin]
+[2018-05-09T22:56:02,431][INFO ][o.e.p.PluginsService     ] [MacbookPro] loaded plugin [io.crate.udc.plugin.UDCPlugin]
+[2018-05-09T22:56:02,432][INFO ][o.e.p.PluginsService     ] [MacbookPro] loaded plugin [org.elasticsearch.discovery.ec2.Ec2DiscoveryPlugin]
+[2018-05-09T22:56:02,432][INFO ][o.e.p.PluginsService     ] [MacbookPro] loaded plugin [org.elasticsearch.repositories.s3.S3RepositoryPlugin]
+[2018-05-09T22:56:02,432][INFO ][o.e.p.PluginsService     ] [MacbookPro] loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+[2018-05-09T22:56:02,455][INFO ][o.e.n.Node               ] [MacbookPro] node name [MacbookPro], node ID [ER01CpRQR0G2N_QkIBF4Xg]
+[2018-05-09T22:56:02,499][INFO ][o.e.n.Node               ] [MacbookPro] CrateDB version[2.3.7], pid[2021], build[dc80da6/2018-05-03T07:26:02Z], OS[Mac OS X/10.13.4/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_91/25.91-b14]
+[2018-05-09T22:56:03,323][INFO ][i.c.module               ] [MacbookPro] CrateDB Enterprise features are active. Please request a license before deploying in production or deactivate the Enterprise features. https://crate.io/enterprise
+[2018-05-09T22:56:04,070][INFO ][o.e.d.DiscoveryModule    ] [MacbookPro] using discovery type [zen]
+[2018-05-09T22:56:04,951][INFO ][i.c.p.s.SslContextProvider] HTTP SSL support is disabled.
+[2018-05-09T22:56:05,267][INFO ][o.e.n.Node               ] [MacbookPro] initialized
+[2018-05-09T22:56:05,267][INFO ][o.e.n.Node               ] [MacbookPro] starting ...
+[2018-05-09T22:56:05,351][INFO ][psql                     ] [MacbookPro] PSQL SSL support is disabled.
+[2018-05-09T22:56:05,487][INFO ][psql                     ] [MacbookPro] publish_address {192.168.1.2:5432}, bound_addresses {[::1]:5432}, {127.0.0.1:5432}, {192.168.1.2:5432}
+[2018-05-09T22:56:05,512][INFO ][i.c.p.h.CrateNettyHttpServerTransport] [MacbookPro] publish_address {192.168.1.2:4200}, bound_addresses {[::1]:4200}, {127.0.0.1:4200}, {192.168.1.2:4200}
+[2018-05-09T22:56:05,529][INFO ][o.e.t.TransportService   ] [MacbookPro] publish_address {192.168.1.2:4300}, bound_addresses {[::1]:4300}, {127.0.0.1:4300}, {192.168.1.2:4300}
+[2018-05-09T22:56:05,539][INFO ][o.e.b.BootstrapChecks    ] [MacbookPro] bound or publishing to a non-loopback address, enforcing bootstrap checks
+[2018-05-09T22:56:05,541][ERROR][o.e.b.BootstrapProxy     ] [MacbookPro] node validation exception
+[1] bootstrap checks failed
+[1]: initial heap size [268435456] not equal to maximum heap size [4294967296]; this can cause resize pauses and prevents mlockall from locking the entire heap
+[2018-05-09T22:56:05,543][INFO ][o.e.n.Node               ] [MacbookPro] stopping ...
+[2018-05-09T22:56:05,593][INFO ][o.e.n.Node               ] [MacbookPro] stopped
+[2018-05-09T22:56:05,594][INFO ][o.e.n.Node               ] [MacbookPro] closing ...
+[2018-05-09T22:56:05,603][INFO ][o.e.n.Node               ] [MacbookPro] closed

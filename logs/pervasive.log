@@ -1,0 +1,145 @@
+[2018-05-11T11:25:26,111][INFO ][o.e.n.Node               ] [MacbookPro Node 1 Old] initializing ...
+[2018-05-11T11:25:26,223][INFO ][o.e.e.NodeEnvironment    ] [MacbookPro Node 1 Old] using [1] data paths, mounts [[/ (/dev/disk1s1)]], net usable_space [30.4gb], net total_space [465.6gb], spins? [unknown], types [apfs]
+[2018-05-11T11:25:26,224][INFO ][o.e.e.NodeEnvironment    ] [MacbookPro Node 1 Old] heap size [3.9gb], compressed ordinary object pointers [true]
+[2018-05-11T11:25:26,561][INFO ][i.c.plugin               ] [MacbookPro Node 1 Old] plugins loaded: [lang-js, jmx-monitoring, hyperLogLog] 
+[2018-05-11T11:25:27,426][INFO ][o.e.p.PluginsService     ] [MacbookPro Node 1 Old] no modules loaded
+[2018-05-11T11:25:27,429][INFO ][o.e.p.PluginsService     ] [MacbookPro Node 1 Old] loaded plugin [crate-azure-discovery]
+[2018-05-11T11:25:27,429][INFO ][o.e.p.PluginsService     ] [MacbookPro Node 1 Old] loaded plugin [es-repository-hdfs]
+[2018-05-11T11:25:27,429][INFO ][o.e.p.PluginsService     ] [MacbookPro Node 1 Old] loaded plugin [io.crate.plugin.BlobPlugin]
+[2018-05-11T11:25:27,429][INFO ][o.e.p.PluginsService     ] [MacbookPro Node 1 Old] loaded plugin [io.crate.plugin.CrateCorePlugin]
+[2018-05-11T11:25:27,429][INFO ][o.e.p.PluginsService     ] [MacbookPro Node 1 Old] loaded plugin [io.crate.plugin.HttpTransportPlugin]
+[2018-05-11T11:25:27,429][INFO ][o.e.p.PluginsService     ] [MacbookPro Node 1 Old] loaded plugin [io.crate.plugin.PluginLoaderPlugin]
+[2018-05-11T11:25:27,430][INFO ][o.e.p.PluginsService     ] [MacbookPro Node 1 Old] loaded plugin [io.crate.plugin.SrvPlugin]
+[2018-05-11T11:25:27,430][INFO ][o.e.p.PluginsService     ] [MacbookPro Node 1 Old] loaded plugin [io.crate.udc.plugin.UDCPlugin]
+[2018-05-11T11:25:27,430][INFO ][o.e.p.PluginsService     ] [MacbookPro Node 1 Old] loaded plugin [org.elasticsearch.discovery.ec2.Ec2DiscoveryPlugin]
+[2018-05-11T11:25:27,430][INFO ][o.e.p.PluginsService     ] [MacbookPro Node 1 Old] loaded plugin [org.elasticsearch.repositories.s3.S3RepositoryPlugin]
+[2018-05-11T11:25:27,430][INFO ][o.e.p.PluginsService     ] [MacbookPro Node 1 Old] loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+[2018-05-11T11:25:27,451][INFO ][o.e.n.Node               ] [MacbookPro Node 1 Old] node name [MacbookPro Node 1 Old], node ID [ER01CpRQR0G2N_QkIBF4Xg]
+[2018-05-11T11:25:27,491][INFO ][o.e.n.Node               ] [MacbookPro Node 1 Old] CrateDB version[2.3.7], pid[9968], build[dc80da6/2018-05-03T07:26:02Z], OS[Mac OS X/10.13.4/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_91/25.91-b14]
+[2018-05-11T11:25:28,117][INFO ][i.c.module               ] [MacbookPro Node 1 Old] CrateDB Enterprise features are active. Please request a license before deploying in production or deactivate the Enterprise features. https://crate.io/enterprise
+[2018-05-11T11:25:28,850][INFO ][o.e.d.DiscoveryModule    ] [MacbookPro Node 1 Old] using discovery type [zen]
+[2018-05-11T11:25:29,747][INFO ][i.c.p.s.SslContextProvider] HTTP SSL support is disabled.
+[2018-05-11T11:25:30,079][INFO ][o.e.n.Node               ] [MacbookPro Node 1 Old] initialized
+[2018-05-11T11:25:30,079][INFO ][o.e.n.Node               ] [MacbookPro Node 1 Old] starting ...
+[2018-05-11T11:25:30,162][INFO ][psql                     ] [MacbookPro Node 1 Old] PSQL SSL support is disabled.
+[2018-05-11T11:25:30,269][INFO ][psql                     ] [MacbookPro Node 1 Old] publish_address {127.0.0.1:5432}, bound_addresses {[::1]:5432}, {127.0.0.1:5432}
+[2018-05-11T11:25:30,291][INFO ][i.c.p.h.CrateNettyHttpServerTransport] [MacbookPro Node 1 Old] publish_address {10.10.15.104:4200}, bound_addresses {[::]:4200}
+[2018-05-11T11:25:30,301][INFO ][o.e.t.TransportService   ] [MacbookPro Node 1 Old] publish_address {127.0.0.1:4300}, bound_addresses {127.0.0.1:4300}
+[2018-05-11T11:25:30,310][WARN ][o.e.b.BootstrapChecks    ] [MacbookPro Node 1 Old] initial heap size [268435456] not equal to maximum heap size [4294967296]; this can cause resize pauses and prevents mlockall from locking the entire heap
+[2018-05-11T11:25:33,340][WARN ][o.e.d.z.ZenDiscovery     ] [MacbookPro Node 1 Old] not enough master nodes discovered during pinging (found [[Candidate{node={MacbookPro Node 1 Old}{ER01CpRQR0G2N_QkIBF4Xg}{z8PA71M4RLmEKCJvVAGWew}{127.0.0.1}{127.0.0.1:4300}{http_address=10.10.15.104:4200}, clusterStateVersion=-1}]], but needed [2]), pinging again
+[2018-05-11T11:25:36,348][WARN ][o.e.d.z.ZenDiscovery     ] [MacbookPro Node 1 Old] not enough master nodes discovered during pinging (found [[Candidate{node={MacbookPro Node 1 Old}{ER01CpRQR0G2N_QkIBF4Xg}{z8PA71M4RLmEKCJvVAGWew}{127.0.0.1}{127.0.0.1:4300}{http_address=10.10.15.104:4200}, clusterStateVersion=-1}]], but needed [2]), pinging again
+[2018-05-11T11:25:39,351][WARN ][o.e.d.z.ZenDiscovery     ] [MacbookPro Node 1 Old] not enough master nodes discovered during pinging (found [[Candidate{node={MacbookPro Node 1 Old}{ER01CpRQR0G2N_QkIBF4Xg}{z8PA71M4RLmEKCJvVAGWew}{127.0.0.1}{127.0.0.1:4300}{http_address=10.10.15.104:4200}, clusterStateVersion=-1}]], but needed [2]), pinging again
+[2018-05-11T11:25:42,356][WARN ][o.e.d.z.ZenDiscovery     ] [MacbookPro Node 1 Old] not enough master nodes discovered during pinging (found [[Candidate{node={MacbookPro Node 1 Old}{ER01CpRQR0G2N_QkIBF4Xg}{z8PA71M4RLmEKCJvVAGWew}{127.0.0.1}{127.0.0.1:4300}{http_address=10.10.15.104:4200}, clusterStateVersion=-1}]], but needed [2]), pinging again
+[2018-05-11T11:25:45,359][WARN ][o.e.d.z.ZenDiscovery     ] [MacbookPro Node 1 Old] not enough master nodes discovered during pinging (found [[Candidate{node={MacbookPro Node 1 Old}{ER01CpRQR0G2N_QkIBF4Xg}{z8PA71M4RLmEKCJvVAGWew}{127.0.0.1}{127.0.0.1:4300}{http_address=10.10.15.104:4200}, clusterStateVersion=-1}]], but needed [2]), pinging again
+[2018-05-11T11:25:48,361][WARN ][o.e.d.z.ZenDiscovery     ] [MacbookPro Node 1 Old] not enough master nodes discovered during pinging (found [[Candidate{node={MacbookPro Node 1 Old}{ER01CpRQR0G2N_QkIBF4Xg}{z8PA71M4RLmEKCJvVAGWew}{127.0.0.1}{127.0.0.1:4300}{http_address=10.10.15.104:4200}, clusterStateVersion=-1}]], but needed [2]), pinging again
+[2018-05-11T11:25:51,380][WARN ][o.e.d.z.ZenDiscovery     ] [MacbookPro Node 1 Old] not enough master nodes discovered during pinging (found [[Candidate{node={MacbookPro Node 1 Old}{ER01CpRQR0G2N_QkIBF4Xg}{z8PA71M4RLmEKCJvVAGWew}{127.0.0.1}{127.0.0.1:4300}{http_address=10.10.15.104:4200}, clusterStateVersion=-1}]], but needed [2]), pinging again
+[2018-05-11T11:25:54,385][WARN ][o.e.d.z.ZenDiscovery     ] [MacbookPro Node 1 Old] not enough master nodes discovered during pinging (found [[Candidate{node={MacbookPro Node 1 Old}{ER01CpRQR0G2N_QkIBF4Xg}{z8PA71M4RLmEKCJvVAGWew}{127.0.0.1}{127.0.0.1:4300}{http_address=10.10.15.104:4200}, clusterStateVersion=-1}]], but needed [2]), pinging again
+[2018-05-11T11:25:57,389][WARN ][o.e.d.z.ZenDiscovery     ] [MacbookPro Node 1 Old] not enough master nodes discovered during pinging (found [[Candidate{node={MacbookPro Node 1 Old}{ER01CpRQR0G2N_QkIBF4Xg}{z8PA71M4RLmEKCJvVAGWew}{127.0.0.1}{127.0.0.1:4300}{http_address=10.10.15.104:4200}, clusterStateVersion=-1}]], but needed [2]), pinging again
+[2018-05-11T11:26:00,329][WARN ][o.e.n.Node               ] [MacbookPro Node 1 Old] timed out while waiting for initial discovery state - timeout: 30s
+[2018-05-11T11:26:00,330][INFO ][o.e.n.Node               ] [MacbookPro Node 1 Old] started
+[2018-05-11T11:26:00,391][WARN ][o.e.d.z.ZenDiscovery     ] [MacbookPro Node 1 Old] not enough master nodes discovered during pinging (found [[Candidate{node={MacbookPro Node 1 Old}{ER01CpRQR0G2N_QkIBF4Xg}{z8PA71M4RLmEKCJvVAGWew}{127.0.0.1}{127.0.0.1:4300}{http_address=10.10.15.104:4200}, clusterStateVersion=-1}]], but needed [2]), pinging again
+[2018-05-11T11:26:03,393][WARN ][o.e.d.z.ZenDiscovery     ] [MacbookPro Node 1 Old] not enough master nodes discovered during pinging (found [[Candidate{node={MacbookPro Node 1 Old}{ER01CpRQR0G2N_QkIBF4Xg}{z8PA71M4RLmEKCJvVAGWew}{127.0.0.1}{127.0.0.1:4300}{http_address=10.10.15.104:4200}, clusterStateVersion=-1}]], but needed [2]), pinging again
+[2018-05-11T11:26:06,398][WARN ][o.e.d.z.ZenDiscovery     ] [MacbookPro Node 1 Old] not enough master nodes discovered during pinging (found [[Candidate{node={MacbookPro Node 1 Old}{ER01CpRQR0G2N_QkIBF4Xg}{z8PA71M4RLmEKCJvVAGWew}{127.0.0.1}{127.0.0.1:4300}{http_address=10.10.15.104:4200}, clusterStateVersion=-1}]], but needed [2]), pinging again
+[2018-05-11T11:26:09,400][WARN ][o.e.d.z.ZenDiscovery     ] [MacbookPro Node 1 Old] not enough master nodes discovered during pinging (found [[Candidate{node={MacbookPro Node 1 Old}{ER01CpRQR0G2N_QkIBF4Xg}{z8PA71M4RLmEKCJvVAGWew}{127.0.0.1}{127.0.0.1:4300}{http_address=10.10.15.104:4200}, clusterStateVersion=-1}]], but needed [2]), pinging again
+[2018-05-11T11:26:12,403][WARN ][o.e.d.z.ZenDiscovery     ] [MacbookPro Node 1 Old] not enough master nodes discovered during pinging (found [[Candidate{node={MacbookPro Node 1 Old}{ER01CpRQR0G2N_QkIBF4Xg}{z8PA71M4RLmEKCJvVAGWew}{127.0.0.1}{127.0.0.1:4300}{http_address=10.10.15.104:4200}, clusterStateVersion=-1}]], but needed [2]), pinging again
+[2018-05-11T11:26:15,408][WARN ][o.e.d.z.ZenDiscovery     ] [MacbookPro Node 1 Old] not enough master nodes discovered during pinging (found [[Candidate{node={MacbookPro Node 1 Old}{ER01CpRQR0G2N_QkIBF4Xg}{z8PA71M4RLmEKCJvVAGWew}{127.0.0.1}{127.0.0.1:4300}{http_address=10.10.15.104:4200}, clusterStateVersion=-1}]], but needed [2]), pinging again
+[2018-05-11T11:26:18,410][WARN ][o.e.d.z.ZenDiscovery     ] [MacbookPro Node 1 Old] not enough master nodes discovered during pinging (found [[Candidate{node={MacbookPro Node 1 Old}{ER01CpRQR0G2N_QkIBF4Xg}{z8PA71M4RLmEKCJvVAGWew}{127.0.0.1}{127.0.0.1:4300}{http_address=10.10.15.104:4200}, clusterStateVersion=-1}]], but needed [2]), pinging again
+[2018-05-11T11:26:21,412][WARN ][o.e.d.z.ZenDiscovery     ] [MacbookPro Node 1 Old] not enough master nodes discovered during pinging (found [[Candidate{node={MacbookPro Node 1 Old}{ER01CpRQR0G2N_QkIBF4Xg}{z8PA71M4RLmEKCJvVAGWew}{127.0.0.1}{127.0.0.1:4300}{http_address=10.10.15.104:4200}, clusterStateVersion=-1}]], but needed [2]), pinging again
+[2018-05-11T11:26:24,417][WARN ][o.e.d.z.ZenDiscovery     ] [MacbookPro Node 1 Old] not enough master nodes discovered during pinging (found [[Candidate{node={MacbookPro Node 1 Old}{ER01CpRQR0G2N_QkIBF4Xg}{z8PA71M4RLmEKCJvVAGWew}{127.0.0.1}{127.0.0.1:4300}{http_address=10.10.15.104:4200}, clusterStateVersion=-1}]], but needed [2]), pinging again
+[2018-05-11T11:26:27,420][WARN ][o.e.d.z.ZenDiscovery     ] [MacbookPro Node 1 Old] not enough master nodes discovered during pinging (found [[Candidate{node={MacbookPro Node 1 Old}{ER01CpRQR0G2N_QkIBF4Xg}{z8PA71M4RLmEKCJvVAGWew}{127.0.0.1}{127.0.0.1:4300}{http_address=10.10.15.104:4200}, clusterStateVersion=-1}]], but needed [2]), pinging again
+[2018-05-11T11:26:30,425][WARN ][o.e.d.z.ZenDiscovery     ] [MacbookPro Node 1 Old] not enough master nodes discovered during pinging (found [[Candidate{node={MacbookPro Node 1 Old}{ER01CpRQR0G2N_QkIBF4Xg}{z8PA71M4RLmEKCJvVAGWew}{127.0.0.1}{127.0.0.1:4300}{http_address=10.10.15.104:4200}, clusterStateVersion=-1}]], but needed [2]), pinging again
+[2018-05-11T11:26:33,428][WARN ][o.e.d.z.ZenDiscovery     ] [MacbookPro Node 1 Old] not enough master nodes discovered during pinging (found [[Candidate{node={MacbookPro Node 1 Old}{ER01CpRQR0G2N_QkIBF4Xg}{z8PA71M4RLmEKCJvVAGWew}{127.0.0.1}{127.0.0.1:4300}{http_address=10.10.15.104:4200}, clusterStateVersion=-1}]], but needed [2]), pinging again
+[2018-05-11T11:26:36,430][WARN ][o.e.d.z.ZenDiscovery     ] [MacbookPro Node 1 Old] not enough master nodes discovered during pinging (found [[Candidate{node={MacbookPro Node 1 Old}{ER01CpRQR0G2N_QkIBF4Xg}{z8PA71M4RLmEKCJvVAGWew}{127.0.0.1}{127.0.0.1:4300}{http_address=10.10.15.104:4200}, clusterStateVersion=-1}]], but needed [2]), pinging again
+[2018-05-11T11:26:39,435][WARN ][o.e.d.z.ZenDiscovery     ] [MacbookPro Node 1 Old] not enough master nodes discovered during pinging (found [[Candidate{node={MacbookPro Node 1 Old}{ER01CpRQR0G2N_QkIBF4Xg}{z8PA71M4RLmEKCJvVAGWew}{127.0.0.1}{127.0.0.1:4300}{http_address=10.10.15.104:4200}, clusterStateVersion=-1}]], but needed [2]), pinging again
+[2018-05-11T11:26:42,437][WARN ][o.e.d.z.ZenDiscovery     ] [MacbookPro Node 1 Old] not enough master nodes discovered during pinging (found [[Candidate{node={MacbookPro Node 1 Old}{ER01CpRQR0G2N_QkIBF4Xg}{z8PA71M4RLmEKCJvVAGWew}{127.0.0.1}{127.0.0.1:4300}{http_address=10.10.15.104:4200}, clusterStateVersion=-1}]], but needed [2]), pinging again
+[2018-05-11T11:26:45,441][WARN ][o.e.d.z.ZenDiscovery     ] [MacbookPro Node 1 Old] not enough master nodes discovered during pinging (found [[Candidate{node={MacbookPro Node 1 Old}{ER01CpRQR0G2N_QkIBF4Xg}{z8PA71M4RLmEKCJvVAGWew}{127.0.0.1}{127.0.0.1:4300}{http_address=10.10.15.104:4200}, clusterStateVersion=-1}]], but needed [2]), pinging again
+[2018-05-11T11:26:48,402][INFO ][o.e.n.Node               ] [MacbookPro Node 1 Old] stopping ...
+[2018-05-11T11:26:48,442][WARN ][o.e.d.z.ZenDiscovery     ] [MacbookPro Node 1 Old] not enough master nodes discovered during pinging (found [[Candidate{node={MacbookPro Node 1 Old}{ER01CpRQR0G2N_QkIBF4Xg}{z8PA71M4RLmEKCJvVAGWew}{127.0.0.1}{127.0.0.1:4300}{http_address=10.10.15.104:4200}, clusterStateVersion=-1}]], but needed [2]), pinging again
+[2018-05-11T11:26:51,445][WARN ][o.e.d.z.ZenDiscovery     ] [MacbookPro Node 1 Old] not enough master nodes discovered during pinging (found [[Candidate{node={MacbookPro Node 1 Old}{ER01CpRQR0G2N_QkIBF4Xg}{z8PA71M4RLmEKCJvVAGWew}{127.0.0.1}{127.0.0.1:4300}{http_address=10.10.15.104:4200}, clusterStateVersion=-1}]], but needed [2]), pinging again
+[2018-05-11T11:26:54,446][WARN ][o.e.d.z.ZenDiscovery     ] [MacbookPro Node 1 Old] not enough master nodes discovered during pinging (found [[Candidate{node={MacbookPro Node 1 Old}{ER01CpRQR0G2N_QkIBF4Xg}{z8PA71M4RLmEKCJvVAGWew}{127.0.0.1}{127.0.0.1:4300}{http_address=10.10.15.104:4200}, clusterStateVersion=-1}]], but needed [2]), pinging again
+[2018-05-11T11:26:59,861][INFO ][o.e.c.s.ClusterService   ] [MacbookPro Node 1 Old] detected_master {MacbookPro Node 2 New}{0RUgiAvyTH-vUtE5Vx9W0A}{h2WQIWilQmiXx543npr7TA}{127.0.0.1}{127.0.0.1:4301}{http_address=10.10.15.104:4200}, added {{MacbookPro Node 2 New}{0RUgiAvyTH-vUtE5Vx9W0A}{h2WQIWilQmiXx543npr7TA}{127.0.0.1}{127.0.0.1:4301}{http_address=10.10.15.104:4200},}, reason: zen-disco-receive(from master [master {MacbookPro Node 2 New}{0RUgiAvyTH-vUtE5Vx9W0A}{h2WQIWilQmiXx543npr7TA}{127.0.0.1}{127.0.0.1:4301}{http_address=10.10.15.104:4200} committed version [1]])
+[2018-05-11T11:27:01,115][WARN ][o.e.c.a.s.ShardStateAction] [MacbookPro Node 1 Old] [tweets][3] node closed while execution action [internal:cluster/shard/started] for shard entry [shard id [[tweets][3]], allocation id [nfSsFpJ0TFKeec97OH6diw], primary term [0], message [after existing recovery]]
+[2018-05-11T11:27:01,115][WARN ][o.e.c.a.s.ShardStateAction] [MacbookPro Node 1 Old] [tweets][2] node closed while execution action [internal:cluster/shard/started] for shard entry [shard id [[tweets][2]], allocation id [Gj6L-XFaTVCry5q4R2r05Q], primary term [0], message [after existing recovery]]
+[2018-05-11T11:27:01,139][INFO ][o.e.n.Node               ] [MacbookPro Node 1 Old] stopped
+[2018-05-11T11:27:01,140][INFO ][o.e.n.Node               ] [MacbookPro Node 1 Old] closing ...
+[2018-05-11T11:27:01,150][INFO ][o.e.n.Node               ] [MacbookPro Node 1 Old] closed
+[2018-05-11T11:27:15,565][INFO ][o.e.n.Node               ] [MacbookPro Node 1 Old] initializing ...
+[2018-05-11T11:27:15,654][INFO ][o.e.e.NodeEnvironment    ] [MacbookPro Node 1 Old] using [1] data paths, mounts [[/ (/dev/disk1s1)]], net usable_space [30.4gb], net total_space [465.6gb], spins? [unknown], types [apfs]
+[2018-05-11T11:27:15,654][INFO ][o.e.e.NodeEnvironment    ] [MacbookPro Node 1 Old] heap size [3.9gb], compressed ordinary object pointers [true]
+[2018-05-11T11:27:16,035][INFO ][i.c.plugin               ] [MacbookPro Node 1 Old] plugins loaded: [lang-js, jmx-monitoring, hyperLogLog] 
+[2018-05-11T11:27:16,715][INFO ][o.e.p.PluginsService     ] [MacbookPro Node 1 Old] no modules loaded
+[2018-05-11T11:27:16,717][INFO ][o.e.p.PluginsService     ] [MacbookPro Node 1 Old] loaded plugin [crate-azure-discovery]
+[2018-05-11T11:27:16,717][INFO ][o.e.p.PluginsService     ] [MacbookPro Node 1 Old] loaded plugin [es-repository-hdfs]
+[2018-05-11T11:27:16,717][INFO ][o.e.p.PluginsService     ] [MacbookPro Node 1 Old] loaded plugin [io.crate.plugin.BlobPlugin]
+[2018-05-11T11:27:16,717][INFO ][o.e.p.PluginsService     ] [MacbookPro Node 1 Old] loaded plugin [io.crate.plugin.CrateCorePlugin]
+[2018-05-11T11:27:16,717][INFO ][o.e.p.PluginsService     ] [MacbookPro Node 1 Old] loaded plugin [io.crate.plugin.HttpTransportPlugin]
+[2018-05-11T11:27:16,717][INFO ][o.e.p.PluginsService     ] [MacbookPro Node 1 Old] loaded plugin [io.crate.plugin.PluginLoaderPlugin]
+[2018-05-11T11:27:16,717][INFO ][o.e.p.PluginsService     ] [MacbookPro Node 1 Old] loaded plugin [io.crate.plugin.SrvPlugin]
+[2018-05-11T11:27:16,718][INFO ][o.e.p.PluginsService     ] [MacbookPro Node 1 Old] loaded plugin [io.crate.udc.plugin.UDCPlugin]
+[2018-05-11T11:27:16,718][INFO ][o.e.p.PluginsService     ] [MacbookPro Node 1 Old] loaded plugin [org.elasticsearch.discovery.ec2.Ec2DiscoveryPlugin]
+[2018-05-11T11:27:16,718][INFO ][o.e.p.PluginsService     ] [MacbookPro Node 1 Old] loaded plugin [org.elasticsearch.repositories.s3.S3RepositoryPlugin]
+[2018-05-11T11:27:16,718][INFO ][o.e.p.PluginsService     ] [MacbookPro Node 1 Old] loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+[2018-05-11T11:27:16,737][INFO ][o.e.n.Node               ] [MacbookPro Node 1 Old] node name [MacbookPro Node 1 Old], node ID [ER01CpRQR0G2N_QkIBF4Xg]
+[2018-05-11T11:27:16,772][INFO ][o.e.n.Node               ] [MacbookPro Node 1 Old] CrateDB version[2.3.7], pid[9982], build[dc80da6/2018-05-03T07:26:02Z], OS[Mac OS X/10.13.4/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_91/25.91-b14]
+[2018-05-11T11:27:17,244][INFO ][i.c.module               ] [MacbookPro Node 1 Old] CrateDB Enterprise features are active. Please request a license before deploying in production or deactivate the Enterprise features. https://crate.io/enterprise
+[2018-05-11T11:27:17,693][INFO ][o.e.d.DiscoveryModule    ] [MacbookPro Node 1 Old] using discovery type [zen]
+[2018-05-11T11:27:18,409][INFO ][i.c.p.s.SslContextProvider] HTTP SSL support is disabled.
+[2018-05-11T11:27:18,722][INFO ][o.e.n.Node               ] [MacbookPro Node 1 Old] initialized
+[2018-05-11T11:27:18,723][INFO ][o.e.n.Node               ] [MacbookPro Node 1 Old] starting ...
+[2018-05-11T11:27:18,807][INFO ][psql                     ] [MacbookPro Node 1 Old] PSQL SSL support is disabled.
+[2018-05-11T11:27:18,919][INFO ][psql                     ] [MacbookPro Node 1 Old] publish_address {127.0.0.1:5432}, bound_addresses {[::1]:5432}, {127.0.0.1:5432}
+[2018-05-11T11:27:18,942][INFO ][i.c.p.h.CrateNettyHttpServerTransport] [MacbookPro Node 1 Old] publish_address {10.10.15.104:4201}, bound_addresses {[::]:4201}
+[2018-05-11T11:27:18,953][INFO ][o.e.t.TransportService   ] [MacbookPro Node 1 Old] publish_address {127.0.0.1:4300}, bound_addresses {127.0.0.1:4300}
+[2018-05-11T11:27:18,966][WARN ][o.e.b.BootstrapChecks    ] [MacbookPro Node 1 Old] initial heap size [268435456] not equal to maximum heap size [4294967296]; this can cause resize pauses and prevents mlockall from locking the entire heap
+[2018-05-11T11:27:22,338][INFO ][o.e.c.s.ClusterService   ] [MacbookPro Node 1 Old] detected_master {MacbookPro Node 2 New}{0RUgiAvyTH-vUtE5Vx9W0A}{h2WQIWilQmiXx543npr7TA}{127.0.0.1}{127.0.0.1:4301}{http_address=10.10.15.104:4200}, added {{MacbookPro Node 2 New}{0RUgiAvyTH-vUtE5Vx9W0A}{h2WQIWilQmiXx543npr7TA}{127.0.0.1}{127.0.0.1:4301}{http_address=10.10.15.104:4200},}, reason: zen-disco-receive(from master [master {MacbookPro Node 2 New}{0RUgiAvyTH-vUtE5Vx9W0A}{h2WQIWilQmiXx543npr7TA}{127.0.0.1}{127.0.0.1:4301}{http_address=10.10.15.104:4200} committed version [5]])
+[2018-05-11T11:27:22,383][INFO ][o.e.n.Node               ] [MacbookPro Node 1 Old] started
+[2018-05-11T14:11:53,006][INFO ][o.e.d.z.ZenDiscovery     ] [MacbookPro Node 1 Old] master_left [{MacbookPro Node 2 New}{0RUgiAvyTH-vUtE5Vx9W0A}{h2WQIWilQmiXx543npr7TA}{127.0.0.1}{127.0.0.1:4301}{http_address=10.10.15.104:4200}], reason [shut_down]
+[2018-05-11T14:11:53,010][INFO ][o.e.d.z.ZenDiscovery     ] [MacbookPro Node 1 Old] master_left [{MacbookPro Node 2 New}{0RUgiAvyTH-vUtE5Vx9W0A}{h2WQIWilQmiXx543npr7TA}{127.0.0.1}{127.0.0.1:4301}{http_address=10.10.15.104:4200}], reason [transport disconnected]
+[2018-05-11T14:11:53,017][WARN ][o.e.d.z.ZenDiscovery     ] [MacbookPro Node 1 Old] master left (reason = shut_down), current nodes: nodes: 
+   {MacbookPro Node 1 Old}{ER01CpRQR0G2N_QkIBF4Xg}{zTAmIQ7PTuqfsYU0HdtXIw}{127.0.0.1}{127.0.0.1:4300}{http_address=10.10.15.104:4201}, local
+   {MacbookPro Node 2 New}{0RUgiAvyTH-vUtE5Vx9W0A}{h2WQIWilQmiXx543npr7TA}{127.0.0.1}{127.0.0.1:4301}{http_address=10.10.15.104:4200}, master
+
+[2018-05-11T14:11:53,045][WARN ][o.e.t.n.Netty4Transport  ] [MacbookPro Node 1 Old] write and flush on the network layer failed (channel: [id: 0x7d643c5e, L:0.0.0.0/0.0.0.0:4300 ! R:/127.0.0.1:54958])
+java.nio.channels.ClosedChannelException: null
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source) ~[netty-transport-4.1.15.Final.jar:4.1.15.Final]
+[2018-05-11T14:11:53,035][WARN ][o.e.c.NodeConnectionsService] [MacbookPro Node 1 Old] failed to connect to node {MacbookPro Node 2 New}{0RUgiAvyTH-vUtE5Vx9W0A}{h2WQIWilQmiXx543npr7TA}{127.0.0.1}{127.0.0.1:4301}{http_address=10.10.15.104:4200} (tried [1] times)
+org.elasticsearch.transport.ConnectTransportException: [MacbookPro Node 2 New][127.0.0.1:4301] connect_timeout[30s]
+	at org.elasticsearch.transport.netty4.Netty4Transport.connectToChannels(Netty4Transport.java:363) ~[crate-app-2.3.7.jar:2.3.7]
+	at org.elasticsearch.transport.TcpTransport.openConnection(TcpTransport.java:570) ~[crate-app-2.3.7.jar:2.3.7]
+	at org.elasticsearch.transport.TcpTransport.connectToNode(TcpTransport.java:473) ~[crate-app-2.3.7.jar:2.3.7]
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:342) ~[crate-app-2.3.7.jar:2.3.7]
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:329) ~[crate-app-2.3.7.jar:2.3.7]
+	at org.elasticsearch.cluster.NodeConnectionsService.validateAndConnectIfNeeded(NodeConnectionsService.java:154) [crate-app-2.3.7.jar:2.3.7]
+	at org.elasticsearch.cluster.NodeConnectionsService$1.doRun(NodeConnectionsService.java:107) [crate-app-2.3.7.jar:2.3.7]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:674) [crate-app-2.3.7.jar:2.3.7]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [crate-app-2.3.7.jar:2.3.7]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_91]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_91]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_91]
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: 127.0.0.1/127.0.0.1:4301
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[?:1.8.0_91]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717) ~[?:1.8.0_91]
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:353) ~[netty-transport-4.1.15.Final.jar:4.1.15.Final]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:340) ~[netty-transport-4.1.15.Final.jar:4.1.15.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:633) ~[netty-transport-4.1.15.Final.jar:4.1.15.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:545) ~[netty-transport-4.1.15.Final.jar:4.1.15.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:499) ~[netty-transport-4.1.15.Final.jar:4.1.15.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) ~[netty-transport-4.1.15.Final.jar:4.1.15.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) ~[netty-common-4.1.15.Final.jar:4.1.15.Final]
+	... 1 more
+Caused by: java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[?:1.8.0_91]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717) ~[?:1.8.0_91]
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:353) ~[netty-transport-4.1.15.Final.jar:4.1.15.Final]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:340) ~[netty-transport-4.1.15.Final.jar:4.1.15.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:633) ~[netty-transport-4.1.15.Final.jar:4.1.15.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:545) ~[netty-transport-4.1.15.Final.jar:4.1.15.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:499) ~[netty-transport-4.1.15.Final.jar:4.1.15.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) ~[netty-transport-4.1.15.Final.jar:4.1.15.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) ~[netty-common-4.1.15.Final.jar:4.1.15.Final]
+	... 1 more
+[2018-05-11T14:11:55,171][INFO ][o.e.n.Node               ] [MacbookPro Node 1 Old] stopping ...
+[2018-05-11T14:11:55,190][WARN ][o.e.d.z.ZenDiscovery     ] [MacbookPro Node 1 Old] not enough master nodes discovered during pinging (found [[Candidate{node={MacbookPro Node 1 Old}{ER01CpRQR0G2N_QkIBF4Xg}{zTAmIQ7PTuqfsYU0HdtXIw}{127.0.0.1}{127.0.0.1:4300}{http_address=10.10.15.104:4201}, clusterStateVersion=127}]], but needed [2]), pinging again
+[2018-05-11T14:11:55,222][INFO ][o.e.n.Node               ] [MacbookPro Node 1 Old] stopped
+[2018-05-11T14:11:55,222][INFO ][o.e.n.Node               ] [MacbookPro Node 1 Old] closing ...
+[2018-05-11T14:11:55,236][INFO ][o.e.n.Node               ] [MacbookPro Node 1 Old] closed

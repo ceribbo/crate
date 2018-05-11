@@ -1,0 +1,33 @@
+[2018-05-09T22:28:16,515][INFO ][o.e.n.Node               ] [Haut de Cry] initializing ...
+[2018-05-09T22:28:16,617][INFO ][o.e.e.NodeEnvironment    ] [Haut de Cry] using [1] data paths, mounts [[/ (/dev/disk1s1)]], net usable_space [32.5gb], net total_space [465.6gb], spins? [unknown], types [apfs]
+[2018-05-09T22:28:16,617][INFO ][o.e.e.NodeEnvironment    ] [Haut de Cry] heap size [3.9gb], compressed ordinary object pointers [true]
+[2018-05-09T22:28:16,979][INFO ][i.c.plugin               ] [Haut de Cry] plugins loaded: [lang-js, jmx-monitoring, hyperLogLog] 
+[2018-05-09T22:28:17,739][INFO ][o.e.p.PluginsService     ] [Haut de Cry] no modules loaded
+[2018-05-09T22:28:17,744][INFO ][o.e.p.PluginsService     ] [Haut de Cry] loaded plugin [crate-azure-discovery]
+[2018-05-09T22:28:17,744][INFO ][o.e.p.PluginsService     ] [Haut de Cry] loaded plugin [es-repository-hdfs]
+[2018-05-09T22:28:17,744][INFO ][o.e.p.PluginsService     ] [Haut de Cry] loaded plugin [io.crate.plugin.BlobPlugin]
+[2018-05-09T22:28:17,744][INFO ][o.e.p.PluginsService     ] [Haut de Cry] loaded plugin [io.crate.plugin.CrateCorePlugin]
+[2018-05-09T22:28:17,744][INFO ][o.e.p.PluginsService     ] [Haut de Cry] loaded plugin [io.crate.plugin.HttpTransportPlugin]
+[2018-05-09T22:28:17,744][INFO ][o.e.p.PluginsService     ] [Haut de Cry] loaded plugin [io.crate.plugin.PluginLoaderPlugin]
+[2018-05-09T22:28:17,745][INFO ][o.e.p.PluginsService     ] [Haut de Cry] loaded plugin [io.crate.plugin.SrvPlugin]
+[2018-05-09T22:28:17,745][INFO ][o.e.p.PluginsService     ] [Haut de Cry] loaded plugin [io.crate.udc.plugin.UDCPlugin]
+[2018-05-09T22:28:17,745][INFO ][o.e.p.PluginsService     ] [Haut de Cry] loaded plugin [org.elasticsearch.discovery.ec2.Ec2DiscoveryPlugin]
+[2018-05-09T22:28:17,745][INFO ][o.e.p.PluginsService     ] [Haut de Cry] loaded plugin [org.elasticsearch.repositories.s3.S3RepositoryPlugin]
+[2018-05-09T22:28:17,745][INFO ][o.e.p.PluginsService     ] [Haut de Cry] loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+[2018-05-09T22:28:17,765][INFO ][o.e.n.Node               ] [Haut de Cry] node name [Haut de Cry], node ID [ER01CpRQR0G2N_QkIBF4Xg]
+[2018-05-09T22:28:17,805][INFO ][o.e.n.Node               ] [Haut de Cry] CrateDB version[2.3.7], pid[1799], build[dc80da6/2018-05-03T07:26:02Z], OS[Mac OS X/10.13.4/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_91/25.91-b14]
+[2018-05-09T22:28:18,368][INFO ][i.c.module               ] [Haut de Cry] CrateDB Enterprise features are active. Please request a license before deploying in production or deactivate the Enterprise features. https://crate.io/enterprise
+[2018-05-09T22:28:18,933][INFO ][o.e.d.DiscoveryModule    ] [Haut de Cry] using discovery type [zen]
+[2018-05-09T22:28:19,712][INFO ][i.c.p.s.SslContextProvider] HTTP SSL support is disabled.
+[2018-05-09T22:28:20,018][INFO ][o.e.n.Node               ] [Haut de Cry] initialized
+[2018-05-09T22:28:20,018][INFO ][o.e.n.Node               ] [Haut de Cry] starting ...
+[2018-05-09T22:28:20,099][INFO ][psql                     ] [Haut de Cry] PSQL SSL support is disabled.
+[2018-05-09T22:28:20,227][INFO ][psql                     ] [Haut de Cry] publish_address {127.0.0.1:5432}, bound_addresses {[::1]:5432}, {127.0.0.1:5432}
+[2018-05-09T22:28:20,248][INFO ][i.c.p.h.CrateNettyHttpServerTransport] [Haut de Cry] publish_address {127.0.0.1:4200}, bound_addresses {[::1]:4200}, {127.0.0.1:4200}
+[2018-05-09T22:28:20,261][INFO ][o.e.t.TransportService   ] [Haut de Cry] publish_address {127.0.0.1:4300}, bound_addresses {[::1]:4300}, {127.0.0.1:4300}
+[2018-05-09T22:28:20,272][WARN ][o.e.b.BootstrapChecks    ] [Haut de Cry] initial heap size [268435456] not equal to maximum heap size [4294967296]; this can cause resize pauses and prevents mlockall from locking the entire heap
+[2018-05-09T22:28:20,333][INFO ][o.e.n.Node               ] [Haut de Cry] stopping ...
+[2018-05-09T22:28:20,393][INFO ][o.e.n.Node               ] [Haut de Cry] started
+[2018-05-09T22:28:20,406][INFO ][o.e.n.Node               ] [Haut de Cry] stopped
+[2018-05-09T22:28:20,407][INFO ][o.e.n.Node               ] [Haut de Cry] closing ...
+[2018-05-09T22:28:20,421][INFO ][o.e.n.Node               ] [Haut de Cry] closed
