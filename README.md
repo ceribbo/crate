@@ -1,6 +1,8 @@
 # Pervesive Systems project
 The project consists in studying and demonstrating the features of <a href="https://www.crate.ios/">CrateDB</a>
 
+Presented by <a href="https://www.linkedin.com/in/giacomo-ceribelli/">Giacomo Ceribelli</a>
+
 <img src="https://mms.businesswire.com/media/20170516005631/en/587025/5/CRA_logo_blue_RGB_0.jpg">
 
 # Presentation
